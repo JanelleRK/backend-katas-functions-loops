@@ -5,26 +5,26 @@ __author__ = "???"
 
 
 def add(x, y):
-    """Add two integers. Handles negative values."""
-    # your code here
-    return
+    add_num = x + y
+    return add_num
+print(add(2,4))
+    
 
 
 def multiply(x, y):
-    """Multiply x with y. Handles negative values of x or y."""
-    # your code here
-    return
+    counter = 0
+    for i in range(x):
+        counter = add(i, x)
+    return counter
+print(multiply(6, -8))
 
 
 def power(x, n):
-    """Raise x to power n, where n >= 0"""
-    # your code here
-    return
+    power_num = x ** n
+    return power_num
 
 
 def factorial(x):
-    """Compute factorial of x, where x > 0"""
-    # your code here
     return
 
 
