@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Implements math functions without using operators except for '+' and '-' """
 
-__author__ = "???"
+__author__ = "Janelle Kuhns with help on multiply from J. Hyuck"
 
 
 def add(x, y):
@@ -31,7 +31,7 @@ print(power(2,8))
 def factorial(x):
     result = 1
     for i in range(x):
-        result = multiply(result, i)
+        result += multiply(result, i)
     return result
 
 print(factorial(4))
